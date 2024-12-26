@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.body{
+  @apply w-screen h-auto flex m-0 p-0 overflow-x-hidden
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+
+.main{
+  @apply flex flex-col justify-center w-full h-auto 
+}
+
+/* NAVBAR */
+.nav-btn{
+  @apply md:text-2xl xs:text-base font-primary font-medium
+}
+
+.nav-link{
+  @apply lg:text-xl md:text-lg xs:text-base font-primary font-medium
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@layer utilities {
+  .animate-scroll {
+    animation: scroll 5s linear infinite;
+    white-space: nowrap;
+    display: flex;
+  }
+}
