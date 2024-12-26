@@ -123,7 +123,7 @@ const NewsletterPage = () => {
       id: 4,
       title: "Newsletter 2024",
       image: "/2024.svg",
-      pdf: "https://drive.google.com/file/d/<FILE_ID>/preview",
+      pdf: "https://drive.google.com/file/d/14h79x0zo1Q79g3miJcH6nwfOy2QP-2BX/preview",
     },
   ];
 

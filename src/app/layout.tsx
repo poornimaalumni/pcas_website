@@ -22,6 +22,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon_io/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png" />
+        <link rel="manifest" href="/favicon_io/manifest.json" />
+      </head>
       <body className="body">
         <div className="flex w-screen flex-col justify-center items-center">
           <div className="w-full md:ml-16 md:mr-16 xs:ml-8 xs:mr-8">
